@@ -1,0 +1,16 @@
+user:
+  name: "Mahiru"
+  github: "TheMahiru"
+
+runtime:
+  image: "python:3.11-slim & nodejs20"
+
+commands:
+  package: ""
+  build:
+    - "pip install -r requirements.txt"
+  start: "python3 -m Cherry"
+
+repository:
+  branch: "main"
+  auto_deploy: true
