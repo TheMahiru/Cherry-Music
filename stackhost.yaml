@@ -3,7 +3,7 @@ user:
   github: "TheMahiru"
 
 runtime:
-  image: "node:22-slim"
+  image: "python-nodejs"
 
 commands:
   package: ""
