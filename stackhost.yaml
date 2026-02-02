@@ -1,6 +1,6 @@
 user:
-  name: "Mahiru"
-  github: "TheMahiru"
+  name: Mahiru
+  github: TheMahiru
 
 runtime:
   image: "python-node-js"
@@ -13,4 +13,4 @@ commands:
 
 repository:
   branch: "main"
-  auto_deploy: true
+  auto_deploy: false
